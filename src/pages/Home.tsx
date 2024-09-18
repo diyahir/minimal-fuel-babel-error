@@ -2,6 +2,7 @@ import { VStack, Grid, HStack, GridItem } from "@chakra-ui/react";
 import { ActivePoolContract } from "../types/active-pool-contract";
 import { useEffect } from "react";
 export const Home = () => {
+  // TODO: Comment this out to see that the webapp builds
   useEffect(() => {
     console.log(ActivePoolContract.abi);
   }, []);
